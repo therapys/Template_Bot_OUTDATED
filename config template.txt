@@ -1,0 +1,84 @@
+altinfo:
+  email: yeet
+  password: yeet
+  joinCMD: /factions
+  serverIP:  play.invasionpvp.net
+  serverPort: 25565
+  version: 1.8.8
+
+ingame_configs:
+  ingame_features_isEnabled: true # If this is set to false, ALL ingame features are DISABLED! (Not even the alt will log in!)
+  ftop_enabled: true
+  flist_enabled: true
+  fwho_enabled: true
+  balance_enabled: true
+  baltop_enabled: true
+  fwho_online_enabled: true
+  playtime_isTracked: true
+  sendmsg_enabled: true
+  runcmd_enabled: true
+  ingameCommands_enabled: true # If set to false, ALL ingame commands are disabled.
+
+  # General Information
+  fwho_stopArg: "offline (" # Where FWho should stop
+
+  # Bank configs
+  ingame_bank_isEnabled: true
+  ingame_bank_msgIngame: true
+  ingame_bank_minDeposit: 1000
+
+  # See the ingame reminder messages in faction chat?
+  ingame_wallReminder_msgIngame: true
+  ingame_bufferReminder_msgIngame: true
+
+  # When someone checks walls or buffers
+  ingame_wallCheck_check_msgIngame: true
+  ingame_buffer_check_msgIngame: true
+
+  ingame_weeWoo_msgIngame: true # Show the WeeWoo message when .weewoo is used ingame
+
+  # Displays chat in console
+  consoleClientChat: false
+
+  # The roles that will be tagged by the bot for a wall check, box check or weewoo message - use the role name!
+  roles_toTag:
+    - NA
+    - EU
+    - AU
+    - AS
+
+  # Commands
+  ftopCMD: /f top 
+  flistCMD: /f list
+  baltopCMD: /baltop 
+  ingameCMDFormat: "[user]: [response]" # For ingame commands (.checked, .calc, etc.)
+  commandMessageDelay: 0 # Delay to respond to commands ingame
+
+  # During the bot's grace period feature - Alerts & ability to check
+  fgrace_wallChecks_isEnabled: false
+  fgrace_boxChecks_isEnabled: false
+
+  # Times to send (Ex. 0,30 would send when the time is hour:00 and hour:30) 
+  ftopTimeRange: 0,30
+  flistTimeRange: 0,30
+  fwho_onlineTimeRange: 0,30
+
+  # In milliseconds - 1 sec = 1000, 1 min = 60000, etc
+  ingameCommandCooldown: 5000
+  discordCommandCooldown: 1500
+  wallCheckCooldown: 60000
+  boxCheckCooldown: 300000
+
+  # The factions to be put in the auto FOnline
+  autoFOnlineFactions:
+    - life
+
+Discord_Configs:
+  discord_token: no
+  main_guild: "611662166541729792" # The main Discord server ID this bot will be used in
+  allowed_guilds:
+    - "611662166541729792"
+  crystal_verify_token: kysnigger
+  prefix: "$"
+  blacklistedChannel_allowVerified: true # Allows anyone who is verified with .iam to run cmds in blacklisted channels
+  manager_roleName: Dev # Role name of the role to use .add, accept applications, etc.

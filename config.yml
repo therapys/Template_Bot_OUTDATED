@@ -1,0 +1,10 @@
+discord:
+  prefix: "-"
+  token: "NzE3MzU3MTcwMTUyMzA4ODA2.XtZJBg.htdie0jpFYqCr_XEHwntC_veIKA"
+
+ingame:
+  account_email: "kris.kiilaspaa@gmail.com"
+  account_password: "j@KYvZQ&4sZ8xN48"
+  serverIP: "play.vanitymc.co"
+  mcversion: "1.8.8"
+  joinCommand: "/demonic"
