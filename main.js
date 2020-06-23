@@ -15,7 +15,7 @@ errEmbed = new Discord.MessageEmbed()
 //Discord ready.
 client.on('ready', () =>{
     //console logs.
-    console.log(`${chalk.yellow(`[Startup]`)} Factions Bot by therapy#8521.`)
+    console.log(`${chalk.yellow(`[Startup]`)} Discord Bot by therapy#8521.`)
     console.log(`${chalk.yellow(`[Startup]`)} User: ${client.user.tag}!`);
 
 });
