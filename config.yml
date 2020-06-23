@@ -1,10 +1,3 @@
 discord:
   prefix: "-"
   token: ""
-
-ingame:
-  account_email: ""
-  account_password: ""
-  serverIP: "play.vanitymc.co"
-  mcversion: "1.8.8"
-  joinCommand: "/demonic"
