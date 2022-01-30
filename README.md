@@ -1,2 +1,2 @@
-# Template_Bot
-A template for all my bots.
+# DEPRECATED
+THIS IS MADE FOR AN OLDER VERSION OF DISCORD.JS, NO LONGER USABLE.
